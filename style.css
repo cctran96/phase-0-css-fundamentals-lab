@@ -1,5 +1,39 @@
+header {
+  text-align: center;
+}
+
+a {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: gray
+}
+
+figure {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+}
+
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+}
+
+#featured-proprty p{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
